@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon --inspect=3030 src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "module"
   },
@@ -25,5 +25,9 @@
     "passport": "^0.6.0",
     "passport-steam": "^1.0.17",
     "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "nodemon": "^2.0.20"
   }
 }

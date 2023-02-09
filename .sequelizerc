@@ -3,6 +3,6 @@ var path = require("path");
 module.exports = {
   config: path.resolve(__dirname, "src", "config", "config.json"),
   "migrations-path": path.resolve(__dirname, "src", "migrations"),
-  //   "models-path": path.resolve("server", "models"),
+  "models-path": path.resolve(__dirname, "src", "models"),
   //   "seeders-path": path.resolve("server", "seeders"),
 };

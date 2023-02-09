@@ -1,5 +1,4 @@
 const model = require("../models");
-
 const Usuario = model.Usuario;
 
 module.exports = {
